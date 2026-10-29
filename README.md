@@ -28,8 +28,8 @@ This project implements the six frozen commands and v0.1 acceptance criteria for
 
 - **Git**: committed history
 - **File History**: uncommitted working files
-- **E: drive**: local backup store (configured destination verified; recoverability pending)
+- **File History / E: drive**: local backup store; restore-path verification passed for one archived version of `cli/doctor.ts` (scope-limited; not a blanket recovery guarantee)
 
 ## Status
 
-Scaffold complete. Sprint 1 acceptance tests pending. See AGENTS.md for backup verification requirements.
+Scaffold complete. Sprint 1 acceptance tests pending. File History restore-path verification passed for one specific archived source-file version on 2026-10-30; broader recoverability remains unverified. See AGENTS.md and `../OPENCODE-OS-RECOVERY-VERIFY-1-ADDENDUM.md` for scope and evidence.
