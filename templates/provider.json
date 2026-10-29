@@ -1,0 +1,7 @@
+{
+  "providerId": "openai",
+  "name": "OpenAI",
+  "capabilities": ["bootstrap", "doctor", "repair", "start"],
+  "healthEndpoint": "https://api.openai.com/v1/health",
+  "timeoutMs": 30000
+}

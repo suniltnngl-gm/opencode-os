@@ -1,0 +1,22 @@
+{
+  "name": "opencode-os",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OpenCode OS v0.1 — bootstrap, diagnostics, repair, provider and memory subsystems",
+  "scripts": {
+    "bootstrap": "tsx cli/bootstrap.ts",
+    "doctor": "tsx cli/doctor.ts",
+    "repair": "tsx cli/repair.ts",
+    "start": "tsx cli/start.ts",
+    "colab": "tsx cli/colab.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4",
+    "vitest": "^1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

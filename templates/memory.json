@@ -1,0 +1,7 @@
+{
+  "providerId": "local",
+  "name": "Local",
+  "capabilities": ["bootstrap", "doctor", "repair", "start"],
+  "healthEndpoint": "file:///dev/null",
+  "timeoutMs": 30000
+}

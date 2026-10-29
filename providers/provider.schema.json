@@ -1,0 +1,8 @@
+{
+  "$schema": "https://opencode-os.dev/schemas/provider.schema.json",
+  "providerId": "string",
+  "name": "string",
+  "capabilities": ["bootstrap", "doctor", "repair", "start"],
+  "healthEndpoint": "string (optional)",
+  "timeoutMs": "number (default: 30000)"
+}

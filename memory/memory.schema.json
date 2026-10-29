@@ -1,0 +1,8 @@
+{
+  "$schema": "https://opencode-os.dev/schemas/memory.schema.json",
+  "providerId": "string",
+  "name": "string",
+  "retentionDays": "number (default: 30)",
+  "maxEntries": "number (default: 1000)",
+  "encryption": "boolean (default: false)"
+}
